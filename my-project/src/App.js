@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./style"
 
-import { Navbar,Hero, GetStarted, Billing, Footer  } from "./components"
+import { Navbar,Hero, GetStarted, Billing, Footer, Stats  } from "./components"
 function App() {
 
   return (
@@ -21,7 +21,7 @@ function App() {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
         <Billing />
-        <GetStarted/>
+        <Stats/>
         <Footer/>
         </div>
       </div>
